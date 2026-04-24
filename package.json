@@ -1,0 +1,17 @@
+{
+  "name": "accounting-app",
+  "version": "1.0.0",
+  "description": "Node.js accounting application converted from legacy COBOL business logic.",
+  "main": "src/accounting/index.js",
+  "scripts": {
+    "start": "node src/accounting/index.js",
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "license": "MIT"
+}
